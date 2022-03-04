@@ -1,0 +1,35 @@
+body {
+  background-color: #121212;
+  color: #fff;
+}
+
+.top-text {
+  text-align: center;
+  font-size: 50px;
+}
+
+.selection-pictures {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.selection-pictures img {
+  width: 256px;
+  height: auto;
+}
+
+.selection-pictures img:hover {
+  transform: scale(1.25);
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.bottom-texts {
+  text-align: center;
+  font-size: 50px;
+}
+
+.fade-in {
+  opacity: 1 !important;
+  transition: opacity 1.6s ease 0s;
+}
