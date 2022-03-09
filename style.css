@@ -24,6 +24,10 @@ body {
   cursor: pointer;
 }
 
+.disappear {
+  display: none;
+}
+
 .bottom-texts {
   text-align: center;
   font-size: 50px;
@@ -32,4 +36,21 @@ body {
 .fade-in {
   opacity: 1 !important;
   transition: opacity 1.6s ease 0s;
+}
+
+.replay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 15px 32px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+.hidden {
+  display: none;
 }
